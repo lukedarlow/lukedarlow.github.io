@@ -904,87 +904,87 @@ input, select, textarea {
 
 				.row.gtr-25 {
 					margin-top: 0;
-					margin-left: -0.375em;
+					margin-left: -0.5em;
 				}
 
 					.row.gtr-25 > * {
-						padding: 0 0 0 0.375em;
+						padding: 0 0 0 0.5em;
 					}
 
 					.row.gtr-25.gtr-uniform {
-						margin-top: -0.375em;
+						margin-top: -0.5em;
 					}
 
 						.row.gtr-25.gtr-uniform > * {
-							padding-top: 0.375em;
+							padding-top: 0.5em;
 						}
 
 				.row.gtr-50 {
 					margin-top: 0;
-					margin-left: -0.75em;
+					margin-left: -1em;
 				}
 
 					.row.gtr-50 > * {
-						padding: 0 0 0 0.75em;
+						padding: 0 0 0 1em;
 					}
 
 					.row.gtr-50.gtr-uniform {
-						margin-top: -0.75em;
+						margin-top: -1em;
 					}
 
 						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.75em;
+							padding-top: 1em;
 						}
 
 				.row {
 					margin-top: 0;
-					margin-left: -1.5em;
+					margin-left: -2em;
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						padding: 0 0 0 2em;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -1.5em;
+						margin-top: -2em;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 1.5em;
+							padding-top: 2em;
 						}
 
 				.row.gtr-150 {
 					margin-top: 0;
-					margin-left: -2.25em;
+					margin-left: -3em;
 				}
 
 					.row.gtr-150 > * {
-						padding: 0 0 0 2.25em;
+						padding: 0 0 0 3em;
 					}
 
 					.row.gtr-150.gtr-uniform {
-						margin-top: -2.25em;
+						margin-top: -3em;
 					}
 
 						.row.gtr-150.gtr-uniform > * {
-							padding-top: 2.25em;
+							padding-top: 3em;
 						}
 
 				.row.gtr-200 {
 					margin-top: 0;
-					margin-left: -3em;
+					margin-left: -4em;
 				}
 
 					.row.gtr-200 > * {
-						padding: 0 0 0 3em;
+						padding: 0 0 0 4em;
 					}
 
 					.row.gtr-200.gtr-uniform {
-						margin-top: -3em;
+						margin-top: -4em;
 					}
 
 						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3em;
+							padding-top: 4em;
 						}
 
 		}
@@ -3338,3 +3338,21 @@ input, select, textarea {
 			}
 
 	}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
